@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="Click">Click on each photo</h2>
+    <div class="card" onclick="showMessage('message1')">
+        <img src="1.jpg" alt="Brother's Photo 1" class="photo">
+        <div class="message" id="message1">
+            <h1>Happy Birthday my sweetie</h1>
+            <span>أجمل بنوتة ,أحلي هندوسة</span>
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message2')">
+        <img src="2.jpg" alt="Brother's Photo 2" class="photo">
+        <div class="message" id="message2">
+            <h2>No words in this world are enough to express what you mean to me </h2>
+            <p>صديقي الي بقضي معاه وقت مفيش منه</p>
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message3')">
+        <img src="3.jpg" alt="Brother's Photo 3" class="photo">
+        <div class="message" id="message3">
+            <h1>You are that friend who is also a family</h1>
+            <p> و بتصور معاه صور حلوة</p>
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message4')">
+        <img src="4.jpg" alt="Brother's Photo 3" class="photo">
+        <div class="message" id="message4">
+            <h1>you are that friend who has always support me</h1>
+            <p>نشارك بعض نفس الاكل </p>
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message5')">
+        <img src="5.jpg" alt="Brother's Photo 3" class="photo">
+        <div class="message" id="message5">
+            <h2>Wishing you a life filled with love and all things that make you smile  </h2>
+            <p>مأخدناش الكارنيه الرابع ف عقبال الخامس</p>
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message6')">
+        <img src="6.jpg" alt="Brother's Photo 3" class="photo">
+        <div class="message" id="message6">
+            <h1>May your year ahead be filled with success</h1>
+            <p>عقبال صوره اخر فاينال </p>            
+        </div>
+    </div>
+    <div class="card" onclick="showMessage('message7')">
+        <img src="7.jpg" alt="Brother's Photo 3" class="photo">
+        <div class="message" id="message7">
+            <h2>Iam glad that i met someone like you ans thanks for being a part of my life</h2>
+            <p>وإن شاء الله نتصور زيها كمان كام واحده قبل التخرج</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
